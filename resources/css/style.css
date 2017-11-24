@@ -1,0 +1,16 @@
+/* Default setting */
+/* Font use:
+		font-family: 'Dancing Script', cursive;
+		font-family: 'Open Sans Condensed', sans-serif;
+		*/
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 14px;
+}
+
+img {
+  	width: 100%;
+}
