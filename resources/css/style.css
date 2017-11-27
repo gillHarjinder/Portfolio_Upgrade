@@ -9,8 +9,28 @@
 
 html{
 	font-size: 14px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-img {
-  	width: 100%;
+
+
+
+/* Bootstrap Overrides */
+
+/**Navigation Bar */
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default a:hover{
+    color: #cc2920;
+}
+
+
+.container-fluid{
+	background-color: #ffffff;
+}
+
+.navbar-default .navbar-brand{
+  	font-size: 2rem;
+  	font-weight: bold;
+  	color: #4e7701;
 }
