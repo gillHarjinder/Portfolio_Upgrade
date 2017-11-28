@@ -19,11 +19,23 @@ html{
 
 /**Navigation Bar */
 
+.navbar-default .navbar-nav a{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default a:hover{
+	background-color: inherit;
     color: #cc2920;
 }
 
+/* for name logo*/
+.navbar .navbar-brand {
+   	padding-top: 5px;
+  	padding-left: 15px;
+}
 
 .container-fluid{
 	background-color: #ffffff;
@@ -33,4 +45,12 @@ html{
   	font-size: 2rem;
   	font-weight: bold;
   	color: #4e7701;
+}
+
+
+/*for small screens*/
+@media only screen and (max-width: 500px) {
+	.nav .navbar-nav {
+		float: left;
+	}
 }
