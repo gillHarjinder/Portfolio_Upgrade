@@ -56,19 +56,23 @@ html{
 
 /* First Page Intro */
 .jumbotron{
-	padding: 10rem 0;
+	padding-top: 10rem;
 	background-color: #ffffff;
 	text-align: center;
 	font-family: 'Inconsolata', monospace;
 }
 
-.jumbotron .card{
-	margin-bottom: 0;
+
+#aboutMe .jumbotron{
+	padding-top: 0;
+	background-color: #f2bfbf;
 }
-.jumbotron .card img{
+
+
+.card-img-1{
 	display: block;
 	margin: auto;
-	width: 40%;
+	width: 50%;
 	padding-bottom: 2rem;
 }
 
@@ -78,6 +82,17 @@ h2.card-text{
 
 p.card-text{
 	padding: 4rem 0;
+}
+
+.card h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+p.cursive-text{
+	font-family: 'Dancing Script', cursive;
+	font-size: 4rem;
+	line-height: 150%;
 }
 
 /*for small screens*/
@@ -96,10 +111,14 @@ p.card-text{
     }
 
     .jumbotron{
-		padding: 12rem 0;
+		padding-top: 10rem;
 		background-color: #ffffff;
 		text-align: center;
 		font-family: 'Inconsolata', monospace;
+	}
+
+	.card-img-1{
+		width: 70%;
 	}
 
     h2.card-text{
