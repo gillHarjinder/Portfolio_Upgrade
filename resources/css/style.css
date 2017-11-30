@@ -2,8 +2,11 @@
 /* Font use:
 		font-family: 'Dancing Script', cursive;
 		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: 'Inconsolata', monospace;
 		*/
-
+<style>
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+</style>
 
 html{
 	font-size: 14px;
@@ -16,13 +19,12 @@ html{
 
 
 .navbar {
-    text-transform: uppercase;
-    
-    background-color: #000000;
+    text-transform: uppercase;   
+    background-color: #455570;
 }
 
 
-
+/* Navigation Bar*/
 .navbar .navbar-nav {
     letter-spacing: 1px;
 }
@@ -52,6 +54,32 @@ html{
 
 
 
+/* First Page Intro */
+.jumbotron{
+	padding: 10rem 0;
+	background-color: #ffffff;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+}
+
+.jumbotron .card{
+	margin-bottom: 0;
+}
+.jumbotron .card img{
+	display: block;
+	margin: auto;
+	width: 40%;
+	padding-bottom: 2rem;
+}
+
+h2.card-text{
+	text-transform: uppercase;
+}
+
+p.card-text{
+	padding: 4rem 0;
+}
+
 /*for small screens*/
 @media(max-width: 683px) {
 	.navbar-fixed-top {
@@ -66,5 +94,21 @@ html{
         -moz-transition: all .3s;
         transition: all .3s;
     }
+
+    .jumbotron{
+		padding: 12rem 0;
+		background-color: #ffffff;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+	}
+
+    h2.card-text{
+		font-size: 2rem;
+	}
+
+	p.card-text{
+		font-size: 1.5rem;
+		padding: 2rem 0;
+	}
     
 }
