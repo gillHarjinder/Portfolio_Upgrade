@@ -66,8 +66,14 @@ html{
 #aboutMe .jumbotron{
 	padding-top: 0;
 	background-color: #f2bfbf;
+	margin-bottom: 0;
 }
 
+
+#goToProjects .jumbotron{
+	padding-top: 0;
+	background-color: #b5d1ff;
+}
 
 .card-img-1{
 	display: block;
@@ -92,7 +98,7 @@ p.card-text{
 p.cursive-text{
 	font-family: 'Dancing Script', cursive;
 	font-size: 4rem;
-	line-height: 150%;
+	line-height: 250%;
 }
 
 /*for small screens*/
@@ -129,5 +135,9 @@ p.cursive-text{
 		font-size: 1.5rem;
 		padding: 2rem 0;
 	}
+
+	p.cursive-text{
+	line-height: 150%;
+}
     
 }
